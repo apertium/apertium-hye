@@ -78,6 +78,8 @@
 
   <pardefs>
 
+    <!-- SECTION: Punctuation -->
+
     <pardef n="guionet">    
       <e><p><l>-</l><r>-<s n="guio"/></r></p></e>
     </pardef>
@@ -103,10 +105,13 @@
       <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Conjunctions -->
 
     <pardef n="և__cnjcoo">
       <e><p><l></l><r><s n="cnjcoo"/></r></p></e>
     </pardef>
+
+    <!-- SECTION: Adpositions -->
    
     <pardef n="առանց__pr">
       <e><p><l></l><r><s n="pr"/></r></p></e>
@@ -424,7 +429,6 @@
  
   </pardefs>
   <section id="main" type="standard">
-    <e lm="personal pronouns"><i/><par n="/personal_pronouns__prn"/></e>
 
     <!-- SECTION: Conjunctions -->
     <e lm="և"><i>և</i><par n="և__cnjcoo"/></e>
@@ -457,6 +461,8 @@
     <e lm="փոխարեն"><i>փոխարեն</i><par n="մեջ__post"/></e>
 
     <!-- SECTION: Pronouns -->
+
+    <e lm="personal pronouns"><i/><par n="/personal_pronouns__prn"/></e>
 
     <!-- SECTION: Determiners -->
 
