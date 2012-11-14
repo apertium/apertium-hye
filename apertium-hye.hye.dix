@@ -11,6 +11,7 @@
      <sdef n="num"     c="Preposition"/>
      <sdef n="prn"    c="Pronoun"/>
      <sdef n="det"    c="Determiner"/>
+     <sdef n="vblex"    c="Determiner"/>
 
      <sdef n="aa"     c="Animate"/>
      <sdef n="nn"     c="Inanimate"/>
@@ -29,6 +30,24 @@
      <sdef n="sp"     c="Singular / Plural"/>
      <sdef n="sg"     c="Singular"/>
      <sdef n="pl"     c="Plural"/>
+
+     <sdef n="inf"    c="Infinitive"/>
+     <sdef n="pass"   c="Passive"/>
+     <sdef n="caus"   c="Causative"/>
+     <sdef n="prc1"   c="Resultative participle"/>
+     <sdef n="prc2"   c="Subject participle"/>
+     <sdef n="conneg" c="Connegative"/>
+
+     <sdef n="con1"   c="Imperfective converb"/>
+     <sdef n="con2"   c="Simultaneous converb"/>
+     <sdef n="con3"   c="Perfective converb"/>
+     <sdef n="con4"   c="Future converb I"/>
+     <sdef n="con5"   c="Future converb II"/>
+
+     <sdef n="aor"    c="Aorist"/>
+     <sdef n="imp"    c="Imperative"/>
+     <sdef n="fts"    c="Future subjunctive"/>
+     <sdef n="ftk"    c="Future perfect"/>
 
      <sdef n="mf"     c="Masculine / Feminine"/>
      <sdef n="nt"     c="Neuter"/>
@@ -94,7 +113,8 @@
       <e><p><l></l><r><s n="post"/></r></p></e>
     </pardef>
  
-    <!-- Incomplete, but see: http://www.armeniapedia.org/index.php?title=Armenian_Language_Lessons_Chapter_5 -->
+    <!-- SECTION: Pronouns -->
+
     <pardef n="/personal_pronouns__prn">
       <e><p><l>ես</l><r>ես<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/></r></p></e>
       <e><p><l>իմ</l><r>ես<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="gen"/></r></p></e>
@@ -248,7 +268,8 @@
       <e>       <p><l>ներովդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
       <e>       <p><l>ներումդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
     </pardef>
-
+ 
+    <!-- SECTION: Adjectives -->
 
     <pardef n="կարմիր__adj">
       <e><p><l></l><r><s n="adj"/></r></p></e>
@@ -259,9 +280,92 @@
       <e><p><l>ագույն</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e>
     </pardef>
 
+    <!-- SECTION: Adverbs -->
+
     <pardef n="վեր__adv">
       <e><p><l></l><r><s n="adv"/></r></p></e>
     </pardef>
+
+    <!-- SECTION: Verbs -->
+
+    <pardef n="գիշատ/ել__vblex">
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e>
+      <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prc1"/></r></p></e>
+      <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="prc2"/></r></p></e>
+
+      <e>       <p><l>ում</l><r>ել<s n="vblex"/><s n="con1"/></r></p></e>
+      <e>       <p><l>ելիս</l><r>ել<s n="vblex"/><s n="con2"/></r></p></e>
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="con3"/></r></p></e>
+      <e>       <p><l>ելու</l><r>ել<s n="vblex"/><s n="con4"/></r></p></e>
+      <e>       <p><l>ելիք</l><r>ել<s n="vblex"/><s n="con5"/></r></p></e>
+      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="conneg"/></r></p></e>
+
+      <e>       <p><l>եցի</l><r>ել<s n="vblex"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եցիր</l><r>ել<s n="vblex"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եց</l><r>ել<s n="vblex"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եցինք</l><r>ել<s n="vblex"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եցիք</l><r>ել<s n="vblex"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եցին</l><r>ել<s n="vblex"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>եմ</l><r>ել<s n="vblex"/><s n="fts"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ես</l><r>ել<s n="vblex"/><s n="fts"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ենք</l><r>ել<s n="vblex"/><s n="fts"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եք</l><r>ել<s n="vblex"/><s n="fts"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>են</l><r>ել<s n="vblex"/><s n="fts"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>եի</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եիր</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եր</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եինք</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եիք</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եին</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>ի՛ր</l><r>ել<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ե՛ք</l><r>ել<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="լս/ել__vblex">
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p></e>
+      <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e>
+      <e>       <p><l>եցնել</l><r>ել<s n="vblex"/><s n="caus"/></r></p></e>
+      <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prc1"/></r></p></e>
+      <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="prc2"/></r></p></e>
+
+      <e>       <p><l>ում</l><r>ել<s n="vblex"/><s n="con1"/></r></p></e>
+      <e>       <p><l>ելիս</l><r>ել<s n="vblex"/><s n="con2"/></r></p></e>
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="con3"/></r></p></e>
+      <e>       <p><l>ելու</l><r>ել<s n="vblex"/><s n="con4"/></r></p></e>
+      <e>       <p><l>ելիք</l><r>ել<s n="vblex"/><s n="con5"/></r></p></e>
+      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="conneg"/></r></p></e>
+
+      <e>       <p><l>եցի</l><r>ել<s n="vblex"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եցիր</l><r>ել<s n="vblex"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եց</l><r>ել<s n="vblex"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եցինք</l><r>ել<s n="vblex"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եցիք</l><r>ել<s n="vblex"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եցին</l><r>ել<s n="vblex"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>եմ</l><r>ել<s n="vblex"/><s n="fts"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ես</l><r>ել<s n="vblex"/><s n="fts"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="fts"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ենք</l><r>ել<s n="vblex"/><s n="fts"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եք</l><r>ել<s n="vblex"/><s n="fts"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>են</l><r>ել<s n="vblex"/><s n="fts"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>եի</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եիր</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եր</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եինք</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եիք</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եին</l><r>ել<s n="vblex"/><s n="ftk"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>ի՛ր</l><r>ել<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ե՛ք</l><r>ել<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
+
  
   </pardefs>
   <section id="main" type="standard">
@@ -337,6 +441,10 @@
     <e lm="աղեկ"><i>աղեկ</i><par n="վեր__adv"/></e>
 
     <!-- SECTION: Verbs -->
+
+    <e lm="գիշատել"><i>գիշատ</i><par n="գիշատ/ել__vblex"/></e>
+    <e lm="քշել"><i>քշ</i><par n="գիշատ/ել__vblex"/></e>
+    <e lm="լսել"><i>լս</i><par n="լս/ել__vblex"/></e>
 
     <!-- SECTION: Interjections -->
 
