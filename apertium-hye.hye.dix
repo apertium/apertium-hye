@@ -8,10 +8,11 @@
      <sdef n="post"   c="Postposition"/>
      <sdef n="adv"    c="Adverb"/>
      <sdef n="pr"     c="Preposition"/>
-     <sdef n="num"     c="Preposition"/>
+     <sdef n="num"    c="Preposition"/>
      <sdef n="prn"    c="Pronoun"/>
      <sdef n="det"    c="Determiner"/>
-     <sdef n="vblex"    c="Determiner"/>
+     <sdef n="vblex"  c="Verb"/>
+     <sdef n="vbser"  c="Verb 'to be'"/>
 
      <sdef n="aa"     c="Animate"/>
      <sdef n="nn"     c="Inanimate"/>
@@ -44,6 +45,8 @@
      <sdef n="con4"   c="Future converb I"/>
      <sdef n="con5"   c="Future converb II"/>
 
+     <sdef n="pres"   c="Present"/>
+     <sdef n="pii"    c="Imperfect"/>
      <sdef n="aor"    c="Aorist"/>
      <sdef n="imp"    c="Imperative"/>
      <sdef n="fts"    c="Future subjunctive"/>
@@ -288,6 +291,58 @@
 
     <!-- SECTION: Verbs -->
 
+    <pardef n="/լինել__vbser">
+      <e>       <p><l>լինել</l><r>լինել<s n="vbser"/><s n="inf"/></r></p></e>
+
+      <e>       <p><l>եղած</l><r>լինել<s n="vbser"/><s n="prc1"/></r></p></e>
+      <e>       <p><l>եղող</l><r>լինել<s n="vbser"/><s n="prc2"/></r></p></e>
+
+      <e>       <p><l>լինում</l><r>լինել<s n="vbser"/><s n="con1"/></r></p></e>
+      <e>       <p><l>լինելիս</l><r>լինել<s n="vbser"/><s n="con2"/></r></p></e>
+      <e>       <p><l>եղել</l><r>լինել<s n="vbser"/><s n="con3"/></r></p></e>
+      <e>       <p><l>լինելու</l><r>լինել<s n="vbser"/><s n="con4"/></r></p></e>
+      <e>       <p><l>լինելիք</l><r>լինել<s n="vbser"/><s n="con5"/></r></p></e>
+      <e>       <p><l>լինի</l><r>լինել<s n="vbser"/><s n="conneg"/></r></p></e>
+
+      <e>       <p><l>եմ</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ես</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>է</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>ենք</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եք</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>են</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>էի</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>էիր</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>էր</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>էինք</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>էիք</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>էին</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>եղա</l><r>ել<s n="vbser"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղար</l><r>ել<s n="vbser"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղավ</l><r>ել<s n="vbser"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղանք</l><r>ել<s n="vbser"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եղաք</l><r>ել<s n="vbser"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եղան</l><r>ել<s n="vbser"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>լինեմ</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>լինես</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>լինի</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>լինենք</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>լինեք</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>լինեն</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>լինեի</l><r>լինել<s n="vbser"/><s n="ftk"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>լինեիր</l><r>լինել<s n="vbser"/><s n="ftk"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>լիներ</l><r>լինել<s n="vbser"/><s n="ftk"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>լինեինք</l><r>լինել<s n="vbser"/><s n="ftk"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>լինեիք</l><r>լինել<s n="vbser"/><s n="ftk"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>լինեին</l><r>լինել<s n="vbser"/><s n="ftk"/><s n="p3"/><s n="pl"/></r></p></e>
+
+      <e>       <p><l>եղի՛ր</l><r>լինել<s n="vbser"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղե՛ք</l><r>լինել<s n="vbser"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="գիշատ/ել__vblex">
       <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p></e>
       <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e>
@@ -441,6 +496,8 @@
     <e lm="աղեկ"><i>աղեկ</i><par n="վեր__adv"/></e>
 
     <!-- SECTION: Verbs -->
+
+    <e lm="լինել"><i/><par n="/լինել__vbser"/></e>
 
     <e lm="գիշատել"><i>գիշատ</i><par n="գիշատ/ել__vblex"/></e>
     <e lm="քշել"><i>քշ</i><par n="գիշատ/ել__vblex"/></e>
