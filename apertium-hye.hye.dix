@@ -61,6 +61,7 @@
      <sdef n="def"    c="Definite"/>
      <sdef n="ind"    c="Indefinite"/>
      <sdef n="dem"    c="Demonstrative"/>
+     <sdef n="itg"    c="Interrogative"/>
 
      <sdef n="pers"   c="Personal"/>
 
@@ -227,6 +228,16 @@
       <e>       <p><l>ում</l><r><s n="rel"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
     </pardef>
 
+    <pardef n="որտեղ__prn"> 
+      <e>       <p><l></l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ը</l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ն</l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ի</l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ին</l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ից</l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ով</l><r><s n="prn"/><s n="itg"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+    </pardef>
+
     <!-- SECTION:  Nouns -->
 
     <pardef n="ուսանող__n_aa">  <!-- No locative -->
@@ -319,6 +330,7 @@
       <e>       <p><l>ներումդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
     </pardef>
 
+
     <pardef n="իր__n_nn">
       <e>       <p><l></l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e>       <p><l>ը</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
@@ -366,7 +378,6 @@
       <e>       <p><l>երովդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
       <e>       <p><l>երումդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
     </pardef>
- 
  
     <!-- SECTION: Adjectives -->
 
@@ -563,6 +574,7 @@
     <e lm="personal pronouns"><i/><par n="/personal_pronouns__prn"/></e>
 
     <e lm="որ"><i>որ</i><par n="որ__rel"/></e>
+    <e lm="որտեղ"><i>որտեղ</i><par n="որտեղ__prn"/></e>
 
     <!-- SECTION: Determiners -->
 
@@ -582,6 +594,7 @@
     <e lm="ուսանող"><i>ուսանող</i><par n="ուսանող__n_aa"/></e>
 
     <e lm="արև"><i>արև</i><par n="արև__n_nn"/></e>
+    <e lm="անգամ"><i>անգամ</i><par n="արև__n_nn"/></e>
     <e lm="ձեռք"><i>ձեռք</i><par n="արև__n_nn"/></e>
     <e lm="ոտք"><i>ոտք</i><par n="արև__n_nn"/></e>
     <e lm="բերան"><i>բերան</i><par n="արև__n_nn"/></e>
@@ -599,6 +612,7 @@
 
     <!-- SECTION: Adjectives -->
     <e lm="կարմիր"><i>կարմիր</i><par n="կարմիր__adj"/></e>
+    <e lm="բոլոր" c="all"><i>բոլոր</i><par n="կարմիր__adj"/></e>
 
     <e lm="վատ"><i>վատ</i><par n="վատ__adj"/></e>
     <e lm="լավ"><i>լավ</i><par n="վատ__adj"/></e>
@@ -606,6 +620,7 @@
     <e lm="ազնիվ"><i>ազնիվ</i><par n="վատ__adj"/></e>
     <e lm="խոշոր"><i>խոշոր</i><par n="վատ__adj"/></e>
     <e lm="կարող"><i>կարող</i><par n="վատ__adj"/></e>
+    <e lm="տարբեր"><i>տարբեր</i><par n="վատ__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
