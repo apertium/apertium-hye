@@ -38,15 +38,15 @@
      <sdef n="inf"    c="Infinitive"/>
      <sdef n="pass"   c="Passive"/>
      <sdef n="caus"   c="Causative"/>
-     <sdef n="prc1"   c="Resultative participle"/>
-     <sdef n="prc2"   c="Subject participle"/>
-     <sdef n="conneg" c="Connegative"/>
 
-     <sdef n="con1"   c="Imperfective converb"/>
-     <sdef n="con2"   c="Simultaneous converb"/>
-     <sdef n="con3"   c="Perfective converb"/>
-     <sdef n="con4"   c="Future converb I"/>
-     <sdef n="con5"   c="Future converb II"/>
+     <sdef n="pprs"   c="Present participle"/>
+     <sdef n="proc"   c="Process participle"/>
+     <sdef n="pp"     c="Perfective participle"/>
+     <sdef n="prsl"   c="Resultative participle"/>
+     <sdef n="psub"   c="Subject participle"/>
+     <sdef n="pneg"   c="Negative participle"/>
+     <sdef n="pfup"   c="Future participle I"/>
+     <sdef n="pfus"   c="Future participle II"/>
 
      <sdef n="pres"   c="Present"/>
      <sdef n="pii"    c="Imperfect"/>
@@ -378,6 +378,52 @@
       <e>       <p><l>երովդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
       <e>       <p><l>երումդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
     </pardef>
+
+    <pardef n="գին/ի__n_nn">
+
+      <e>       <p><l>ի</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ին</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ու</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուն</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ուց</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ով</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ում</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+
+      <e>       <p><l>իներ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իները</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>իներն</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>իների</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իներին</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>իներից</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իներով</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իներում</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
+
+      <e>       <p><l>իս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ուս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ուցս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ովս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ումս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
+
+      <e>       <p><l>իներս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ունս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>իներիցս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>իներովս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>իներումս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
+
+      <e>       <p><l>իդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ուդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ուցդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ովդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ումդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
+
+      <e>       <p><l>իներդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>իներիդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>իներիցդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>իներովդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>իներումդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
+
+
+    </pardef>
  
     <!-- SECTION: Adjectives -->
 
@@ -387,7 +433,10 @@
 
     <pardef n="վատ__adj">
       <e><p><l></l><r><s n="adj"/><s n="sint"/></r></p></e>
-      <e><p><l>ագույն</l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e> <!-- Wrong: it's a prefix -->
+    </pardef>
+
+    <pardef n="ագույն__adj">
+      <e><p><l></l><r><s n="adj"/><s n="sint"/><s n="sup"/></r></p></e> 
     </pardef>
 
     <!-- SECTION: Adverbs -->
@@ -398,18 +447,25 @@
 
     <!-- SECTION: Verbs -->
 
+    <pardef n="inf_decl">
+      <e><p><l></l><r></r></p></e>
+      <e><p><l>ի</l><r><s n="dat"/></r></p></e>
+      <e><p><l>ից</l><r><s n="abl"/></r></p></e>
+      <e><p><l>ով</l><r><s n="ins"/></r></p></e>
+    </pardef>
+
     <pardef n="/լինել__vbser">
-      <e>       <p><l>լինել</l><r>լինել<s n="vbser"/><s n="inf"/></r></p></e>
+      <e>       <p><l>լինել</l><r>լինել<s n="vbser"/><s n="inf"/></r></p><par n="inf_decl"/></e> 
 
-      <e>       <p><l>եղած</l><r>լինել<s n="vbser"/><s n="prc1"/></r></p></e>
-      <e>       <p><l>եղող</l><r>լինել<s n="vbser"/><s n="prc2"/></r></p></e>
+      <e>       <p><l>եղած</l><r>լինել<s n="vbser"/><s n="prsl"/></r></p></e>
+      <e>       <p><l>եղող</l><r>լինել<s n="vbser"/><s n="psub"/></r></p></e>
 
-      <e>       <p><l>լինում</l><r>լինել<s n="vbser"/><s n="con1"/></r></p></e>
-      <e>       <p><l>լինելիս</l><r>լինել<s n="vbser"/><s n="con2"/></r></p></e>
-      <e>       <p><l>եղել</l><r>լինել<s n="vbser"/><s n="con3"/></r></p></e>
-      <e>       <p><l>լինելու</l><r>լինել<s n="vbser"/><s n="con4"/></r></p></e>
-      <e>       <p><l>լինելիք</l><r>լինել<s n="vbser"/><s n="con5"/></r></p></e>
-      <e>       <p><l>լինի</l><r>լինել<s n="vbser"/><s n="conneg"/></r></p></e>
+      <e>       <p><l>լինում</l><r>լինել<s n="vbser"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>լինելիս</l><r>լինել<s n="vbser"/><s n="proc"/></r></p></e>
+      <e>       <p><l>եղել</l><r>լինել<s n="vbser"/><s n="pp"/></r></p></e>
+      <e>       <p><l>լինելու</l><r>լինել<s n="vbser"/><s n="pfup"/></r></p></e>
+      <e>       <p><l>լինելիք</l><r>լինել<s n="vbser"/><s n="pfus"/></r></p></e>
+      <e>       <p><l>լինի</l><r>լինել<s n="vbser"/><s n="pneg"/></r></p></e>
 
       <e>       <p><l>եմ</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>ես</l><r>լինել<s n="vbser"/><s n="pres"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -451,17 +507,17 @@
     </pardef>
 
     <pardef n="գիշատ/ել__vblex">
-      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p></e>
-      <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e>
-      <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prc1"/></r></p></e>
-      <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="prc2"/></r></p></e>
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p><par n="inf_decl"/></e> 
+      <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e> <!-- conj -->
+      <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prsl"/></r></p></e>
+      <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="psub"/></r></p></e>
 
-      <e>       <p><l>ում</l><r>ել<s n="vblex"/><s n="con1"/></r></p></e>
-      <e>       <p><l>ելիս</l><r>ել<s n="vblex"/><s n="con2"/></r></p></e>
-      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="con3"/></r></p></e>
-      <e>       <p><l>ելու</l><r>ել<s n="vblex"/><s n="con4"/></r></p></e>
-      <e>       <p><l>ելիք</l><r>ել<s n="vblex"/><s n="con5"/></r></p></e>
-      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="conneg"/></r></p></e>
+      <e>       <p><l>ում</l><r>ել<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>ելիս</l><r>ել<s n="vblex"/><s n="proc"/></r></p></e>
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="pp"/></r></p></e>
+      <e>       <p><l>ելու</l><r>ել<s n="vblex"/><s n="pfup"/></r></p></e>
+      <e>       <p><l>ելիք</l><r>ել<s n="vblex"/><s n="pfus"/></r></p></e>
+      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="pneg"/></r></p></e>
 
       <e>       <p><l>եցի</l><r>ել<s n="vblex"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>եցիր</l><r>ել<s n="vblex"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -489,18 +545,18 @@
     </pardef>
 
     <pardef n="լս/ել__vblex">
-      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p></e>
-      <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e>
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p><par n="inf_decl"/></e> 
+      <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e> <!-- conj -->
       <e>       <p><l>եցնել</l><r>ել<s n="vblex"/><s n="caus"/></r></p></e>
-      <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prc1"/></r></p></e>
-      <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="prc2"/></r></p></e>
+      <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prsl"/></r></p></e>
+      <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="psub"/></r></p></e>
 
-      <e>       <p><l>ում</l><r>ել<s n="vblex"/><s n="con1"/></r></p></e>
-      <e>       <p><l>ելիս</l><r>ել<s n="vblex"/><s n="con2"/></r></p></e>
-      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="con3"/></r></p></e>
-      <e>       <p><l>ելու</l><r>ել<s n="vblex"/><s n="con4"/></r></p></e>
-      <e>       <p><l>ելիք</l><r>ել<s n="vblex"/><s n="con5"/></r></p></e>
-      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="conneg"/></r></p></e>
+      <e>       <p><l>ում</l><r>ել<s n="vblex"/><s n="pprs"/></r></p></e>
+      <e>       <p><l>ելիս</l><r>ել<s n="vblex"/><s n="proc"/></r></p></e>
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="pp"/></r></p></e>
+      <e>       <p><l>ելու</l><r>ել<s n="vblex"/><s n="pfup"/></r></p></e>
+      <e>       <p><l>ելիք</l><r>ել<s n="vblex"/><s n="pfus"/></r></p></e>
+      <e>       <p><l>ի</l><r>ել<s n="vblex"/><s n="pneg"/></r></p></e>
 
       <e>       <p><l>եցի</l><r>ել<s n="vblex"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>եցիր</l><r>ել<s n="vblex"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -533,6 +589,7 @@
   <section id="main" type="standard">
 
     <!-- SECTION: Conjunctions -->
+
     <e lm="և"><i>և</i><par n="և__cnjcoo"/></e>
     <e lm="կամ"><i>կամ</i><par n="և__cnjcoo"/></e>
     <e lm="նաև" c="also"><i>նաև</i><par n="և__cnjcoo"/></e>
@@ -544,12 +601,14 @@
     <e lm="իսկ"><i>իսկ</i><par n="իսկ__cnjadv"/></e>
 
     <!-- SECTION: Prepositions -->
+
     <e lm="առանց"><i>առանց</i><par n="առանց__pr"/></e>
     <e lm="արտաքո"><i>արտաքո</i><par n="առանց__pr"/></e>
     <e lm="դեպի"><i>դեպի</i><par n="առանց__pr"/></e>
     <e lm="հաղագս"><i>հաղագս</i><par n="առանց__pr"/></e>
 
     <!-- SECTION: Postpositions -->
+
     <e lm="աղագավ"><i>աղագավ</i><par n="մեջ__post"/></e>
     <e lm="առաջ"><i>առաջ</i><par n="մեջ__post"/></e>
     <e lm="դուրս"><i>դուրս</i><par n="մեջ__post"/></e>
@@ -591,6 +650,7 @@
     <e lm="մի"><i>մի</i><par n="մի__num"/></e>
 
     <!-- SECTION: Nouns -->
+
     <e lm="ուսանող"><i>ուսանող</i><par n="ուսանող__n_aa"/></e>
 
     <e lm="արև"><i>արև</i><par n="արև__n_nn"/></e>
@@ -609,18 +669,31 @@
 
     <e lm="իր"><i>իր</i><par n="իր__n_nn"/></e>
 
+    <e lm="գինի"><i>գին</i><par n="գին/ի__n_nn"/></e>
+
 
     <!-- SECTION: Adjectives -->
+
     <e lm="կարմիր"><i>կարմիր</i><par n="կարմիր__adj"/></e>
     <e lm="բոլոր" c="all"><i>բոլոր</i><par n="կարմիր__adj"/></e>
+    <e lm="ազնիվ"><i>ազնիվ</i><par n="վատ__adj"/></e>
 
     <e lm="վատ"><i>վատ</i><par n="վատ__adj"/></e>
+    <e lm="վատ"><p><l>ամենավատ</l><r>վատ</r></p><par n="ագույն__adj"/></e>
+    <e lm="վատ" r="LR"><p><l>վատագույն</l><r>վատ</r></p><par n="ագույն__adj"/></e>
     <e lm="լավ"><i>լավ</i><par n="վատ__adj"/></e>
+    <e lm="լավ"><p><l>ամենալավ</l><r>լավ</r></p><par n="ագույն__adj"/></e>
+    <e lm="լավ" r="LR"><p><l>լավագույն</l><r>լավ</r></p><par n="ագույն__adj"/></e>
     <e lm="մեծ"><i>մեծ</i><par n="վատ__adj"/></e>
-    <e lm="ազնիվ"><i>ազնիվ</i><par n="վատ__adj"/></e>
+    <e lm="մեծ"><p><l>ամենամեծ</l><r>մեծ</r></p><par n="ագույն__adj"/></e>
+    <e lm="մեծ" r="LR"><p><l>մեծագույն</l><r>մեծ</r></p><par n="ագույն__adj"/></e>
     <e lm="խոշոր"><i>խոշոր</i><par n="վատ__adj"/></e>
+    <e lm="խոշոր"><p><l>ամենախոշոր</l><r>խոշոր</r></p><par n="ագույն__adj"/></e>
+    <e lm="խոշոր" r="LR"><p><l>ամենախոշոր</l><r>խոշոր</r></p><par n="ագույն__adj"/></e>
     <e lm="կարող"><i>կարող</i><par n="վատ__adj"/></e>
+    <e lm="կարող"><p><l>ամենակարող</l><r>կարող</r></p><par n="ագույն__adj"/></e>
     <e lm="տարբեր"><i>տարբեր</i><par n="վատ__adj"/></e>
+    <e lm="տարբեր"><p><l>ամենատարբեր</l><r>տարբեր</r></p><par n="ագույն__adj"/></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -629,6 +702,7 @@
     <e lm="ակնածու"><i>ակնածու</i><par n="վեր__adv"/></e>
     <e lm="ահեղ"><i>ահեղ</i><par n="վեր__adv"/></e>
     <e lm="աղեկ"><i>աղեկ</i><par n="վեր__adv"/></e>
+    <e lm="շատ"><i>շատ</i><par n="վեր__adv"/></e>
 
     <!-- SECTION: Verbs -->
 
@@ -809,7 +883,6 @@
     <e lm="նախ"><i>նախ</i><par n="վեր__adv"/></e>
     <e lm="ներքուստ"><i>ներքուստ</i><par n="վեր__adv"/></e>
     <e lm="նոր"><i>նոր</i><par n="վեր__adv"/></e>
-    <e lm="շատ"><i>շատ</i><par n="վեր__adv"/></e>
     <e lm="շուտ"><i>շուտ</i><par n="վեր__adv"/></e>
     <e lm="շուտով"><i>շուտով</i><par n="վեր__adv"/></e>
     <e lm="շուրջ"><i>շուրջ</i><par n="վեր__adv"/></e>
