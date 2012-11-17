@@ -9,6 +9,7 @@
      <sdef n="cnjadv" c="Adverbial conjunction"/>
      <sdef n="post"   c="Postposition"/>
      <sdef n="adv"    c="Adverb"/>
+     <sdef n="np"     c="Proper noun"/>
      <sdef n="pr"     c="Preposition"/>
      <sdef n="num"    c="Preposition"/>
      <sdef n="prn"    c="Pronoun"/>
@@ -19,6 +20,9 @@
 
      <sdef n="aa"     c="Animate"/>
      <sdef n="nn"     c="Inanimate"/>
+
+     <sdef n="m"      c="Masculine"/>
+     <sdef n="f"      c="Feminine"/>
 
      <sdef n="nom"    c="Nominative"/>
      <sdef n="acc"    c="Accusative"/>
@@ -34,6 +38,8 @@
      <sdef n="sp"     c="Singular / Plural"/>
      <sdef n="sg"     c="Singular"/>
      <sdef n="pl"     c="Plural"/>
+
+     <sdef n="ant"    c="Anthroponym"/>
 
      <sdef n="inf"    c="Infinitive"/>
      <sdef n="pass"   c="Passive"/>
@@ -123,8 +129,6 @@
     <pardef n="իսկ__cnjadv">
       <e><p><l></l><r><s n="cnjadv"/></r></p></e>
     </pardef>
-
-
 
     <!-- SECTION: Adpositions -->
    
@@ -424,6 +428,29 @@
 
 
     </pardef>
+
+    <!-- SECTION: Proper nouns -->
+
+    <pardef n="Գրիգոր__np">
+      <e>       <p><l></l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ը</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ն</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ի</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ին</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ից</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ով</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+
+      <e>       <p><l>ս</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>իս</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>իցս</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
+      <e>       <p><l>ովս</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
+
+      <e>       <p><l>դ</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>իդ</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>իցդ</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ովդ</l><r><s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
+    </pardef>
+
  
     <!-- SECTION: Adjectives -->
 
@@ -481,12 +508,12 @@
       <e>       <p><l>էիք</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
       <e>       <p><l>էին</l><r>լինել<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
 
-      <e>       <p><l>եղա</l><r>ել<s n="vbser"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e>       <p><l>եղար</l><r>ել<s n="vbser"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e>       <p><l>եղավ</l><r>ել<s n="vbser"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e>       <p><l>եղանք</l><r>ել<s n="vbser"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e>       <p><l>եղաք</l><r>ել<s n="vbser"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e>       <p><l>եղան</l><r>ել<s n="vbser"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եղա</l><r>լինել<s n="vbser"/><s n="aor"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղար</l><r>լինել<s n="vbser"/><s n="aor"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղավ</l><r>լինել<s n="vbser"/><s n="aor"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e>       <p><l>եղանք</l><r>լինել<s n="vbser"/><s n="aor"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եղաք</l><r>լինել<s n="vbser"/><s n="aor"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e>       <p><l>եղան</l><r>լինել<s n="vbser"/><s n="aor"/><s n="p3"/><s n="pl"/></r></p></e>
 
       <e>       <p><l>լինեմ</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p1"/><s n="sg"/></r></p></e>
       <e>       <p><l>լինես</l><r>լինել<s n="vbser"/><s n="fts"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -670,6 +697,10 @@
     <e lm="իր"><i>իր</i><par n="իր__n_nn"/></e>
 
     <e lm="գինի"><i>գին</i><par n="գին/ի__n_nn"/></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e lm="Գրիգոր"><i>Գրիգոր</i><par n="Գրիգոր__np"/></e>
 
 
     <!-- SECTION: Adjectives -->
