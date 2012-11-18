@@ -8,10 +8,11 @@
      <sdef n="cnjsub" c="Subordinating conjunction"/>
      <sdef n="cnjadv" c="Adverbial conjunction"/>
      <sdef n="post"   c="Postposition"/>
+     <sdef n="abbr"   c="Abbreviation"/>
      <sdef n="adv"    c="Adverb"/>
      <sdef n="np"     c="Proper noun"/>
      <sdef n="pr"     c="Preposition"/>
-     <sdef n="num"    c="Preposition"/>
+     <sdef n="num"    c="Numeral"/>
      <sdef n="prn"    c="Pronoun"/>
      <sdef n="rel"    c="Relative"/>
      <sdef n="det"    c="Determiner"/>
@@ -114,6 +115,12 @@
 
     <pardef n="separa">    
       <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+    </pardef>
+
+    <!-- SECTION: Abbreviations -->
+
+    <pardef n="տ-ն__abbr">    
+      <e><p><l></l><r><s n="abbr"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Conjunctions -->
@@ -474,15 +481,20 @@
 
     <!-- SECTION: Verbs -->
 
-    <pardef n="inf_decl">
-      <e><p><l></l><r></r></p></e>
-      <e><p><l>ի</l><r><s n="dat"/></r></p></e>
-      <e><p><l>ից</l><r><s n="abl"/></r></p></e>
-      <e><p><l>ով</l><r><s n="ins"/></r></p></e>
+    <pardef n="decl-unc-nn-u">
+      <!-- declension of the nominalised infinitive: u-type, inanimate -->
+      <e><p><l></l><r><s n="nom"/><s n="ind"/></r></p></e>
+      <e><p><l>ն</l><r><s n="nom"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>ը</l><r><s n="nom"/><s n="def"/></r></p></e>
+      <e><p><l>ու</l><r><s n="dat"/><s n="ind"/></r></p></e>
+      <e><p><l>ուն</l><r><s n="dat"/><s n="ind"/></r></p></e>
+      <e><p><l>ուց</l><r><s n="abl"/><s n="ind"/></r></p></e>
+      <e><p><l>ով</l><r><s n="ins"/><s n="ind"/></r></p></e>
+      <e><p><l>ում</l><r><s n="loc"/><s n="ind"/></r></p></e>
     </pardef>
 
     <pardef n="/լինել__vbser">
-      <e>       <p><l>լինել</l><r>լինել<s n="vbser"/><s n="inf"/></r></p><par n="inf_decl"/></e> 
+      <e>       <p><l>լինել</l><r>լինել<s n="vbser"/><s n="inf"/></r></p><par n="decl-unc-nn-u"/></e> 
 
       <e>       <p><l>եղած</l><r>լինել<s n="vbser"/><s n="prsl"/></r></p></e>
       <e>       <p><l>եղող</l><r>լինել<s n="vbser"/><s n="psub"/></r></p></e>
@@ -534,7 +546,7 @@
     </pardef>
 
     <pardef n="գիշատ/ել__vblex">
-      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p><par n="inf_decl"/></e> 
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p><par n="decl-unc-nn-u"/></e> 
       <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e> <!-- conj -->
       <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prsl"/></r></p></e>
       <e>       <p><l>ող</l><r>ել<s n="vblex"/><s n="psub"/></r></p></e>
@@ -572,7 +584,7 @@
     </pardef>
 
     <pardef n="լս/ել__vblex">
-      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p><par n="inf_decl"/></e> 
+      <e>       <p><l>ել</l><r>ել<s n="vblex"/><s n="inf"/></r></p><par n="decl-unc-nn-u"/></e> 
       <e>       <p><l>վել</l><r>ել<s n="vblex"/><s n="pass"/></r></p></e> <!-- conj -->
       <e>       <p><l>եցնել</l><r>ել<s n="vblex"/><s n="caus"/></r></p></e>
       <e>       <p><l>ած</l><r>ել<s n="vblex"/><s n="prsl"/></r></p></e>
@@ -620,12 +632,22 @@
     <e lm="և"><i>և</i><par n="և__cnjcoo"/></e>
     <e lm="կամ"><i>կամ</i><par n="և__cnjcoo"/></e>
     <e lm="նաև" c="also"><i>նաև</i><par n="և__cnjcoo"/></e>
+    <e lm="նույնպես" c="also"><i>նույնպես</i><par n="և__cnjcoo"/></e>
     <e lm="ու"><i>ու</i><par n="և__cnjcoo"/></e>
+    <e lm="եւ"><i>եւ</i><par n="և__cnjcoo"/></e>
+    <e lm="թե"><i>թե</i><par n="և__cnjcoo"/></e>
+    <e lm="բայց"><i>բայց</i><par n="և__cnjcoo"/></e>
+    <e lm="քան" c="than"><i>քան</i><par n="և__cnjcoo"/></e>
 
     <e lm="որ"><i>որ</i><par n="որ__cnjsub"/></e>
     <e lm="այլ"><i>այլ</i><par n="և__cnjcoo"/></e>
 
     <e lm="իսկ"><i>իսկ</i><par n="իսկ__cnjadv"/></e>
+    <e lm="ուրեմն"><i>ուրեմն</i><par n="իսկ__cnjadv"/></e>
+    <e lm="որովհետև"><i>որովհետև</i><par n="իսկ__cnjadv"/></e>
+    <e lm="իսկ"><i>իսկ</i><par n="իսկ__cnjadv"/></e>
+    <e lm="ժամանակ"><i>ժամանակ</i><par n="իսկ__cnjadv"/></e>
+    <e lm="եթե"><i>եթե</i><par n="իսկ__cnjadv"/></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -654,6 +676,7 @@
     <e lm="տակ"><i>տակ</i><par n="մեջ__post"/></e>
     <e lm="փոխանակ"><i>փոխանակ</i><par n="մեջ__post"/></e>
     <e lm="փոխարեն"><i>փոխարեն</i><par n="մեջ__post"/></e>
+    <e lm="մասին" c="about"><i>մասին</i><par n="մեջ__post"/></e> <!-- wikt has 'cnj'?? -->
 
     <!-- SECTION: Pronouns -->
 
@@ -744,6 +767,12 @@
     <e lm="լսել"><i>լս</i><par n="լս/ել__vblex"/></e>
 
     <!-- SECTION: Interjections -->
+
+    <!-- SECTION: Abbreviations -->
+
+    <e lm="տ-ն"><i>տ-ն</i><par n="տ-ն__abbr"/></e>
+    <e lm="պ-ն"><i>պ-ն</i><par n="տ-ն__abbr"/></e>
+
 
     <!-- SECTION: Punctuation -->
 
