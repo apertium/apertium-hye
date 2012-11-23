@@ -1,0 +1,9 @@
+DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+
+SETS
+
+LIST N = n ; 
+
+SECTION
+
+SELECT N ; 
