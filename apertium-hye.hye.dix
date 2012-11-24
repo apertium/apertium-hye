@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-   <alphabet>ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖաբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև</alphabet>
+   <alphabet>ԱԲԳԴԵԶԷԸԹԺԻԼԽԾԿՀՁՂՃՄՅՆՇՈՉՊՋՌՍՎՏՐՑՒՓՔՕՖաբգդեզէըթժիլխծկհձղճմյնշոչպջռսվտրցւփքօֆև՞</alphabet>
    <sdefs>
      <sdef n="n"      c="Noun"/>
      <sdef n="adj"    c="Adjective"/>
@@ -766,6 +766,7 @@
     <e lm="գիշատել"><i>գիշատ</i><par n="գիշատ/ել__vblex"/></e>
     <e lm="քշել"><i>քշ</i><par n="գիշատ/ել__vblex"/></e>
     <e lm="լսել"><i>լս</i><par n="լս/ել__vblex"/></e>
+    <e lm="սիրել"><i>սիր</i><par n="լս/ել__vblex"/></e> <!--check-->
 
     <!-- SECTION: Interjections -->
 
