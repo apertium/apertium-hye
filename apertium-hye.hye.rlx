@@ -3,7 +3,14 @@ DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
 SETS
 
 LIST N = n ; 
+LIST A = adj ; 
+LIST Adv = adv ; 
+LIST V-COP = vbser ; 
 
 SECTION
 
 SELECT N ; 
+
+SELECT A IF (-1 ("ավելի")) ;
+
+SELECT A IF (0C A OR Adv) (1 V-COP) ; 
