@@ -1,3 +1,5 @@
 * text=auto !eol
 /apertium-hye.hye.dix -text
 /apertium-hye.hye.rlx -text
+dev/noun_inflection_getter.py -text
+dev/translations/noun_getter.py -text
