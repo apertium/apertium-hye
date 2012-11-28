@@ -326,6 +326,35 @@
       <e>       <p><l>ուստրերն</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
     </pardef>
 
+    <pardef n="դ/ուստր__n_aa"> <!-- er-type, archaic and irregular-->
+      <e>       <p><l>ստրից</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրից</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ստեր</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ստերը</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ստերն</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ստրով</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրով</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստր</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրը</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ուստրն</l><r>ուստր<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ստրերից</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրերից</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ստրերի</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրերի</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ստրերին</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ուստրերին</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ստրերով</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրերով</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ստրեր</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուստրեր</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ստրերը</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ստրերն</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ուստրերը</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ուստրերն</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+    </pardef>
+
+
+
 
     <pardef n="ուսանող__n_aa">  <!-- No locative -->
       <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -782,6 +811,8 @@
     <e lm="անձ"><i>անձ</i><par n="անձ__n_aa"/></e>
     <e lm="աստված"><i>աստ</i><par n="աստ/ված__n_aa"/></e>
     <e lm="արքայադուստր"><i>արքայադ</i><par n="արքայադ/ուստր__n_aa"/></e>
+    <e lm="դուստր"><i>դ</i><par n="դ/ուստր__n_aa"/></e>
+
 
 
     <e lm="արև"><i>արև</i><par n="արև__n_nn"/></e>
