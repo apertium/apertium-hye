@@ -251,6 +251,32 @@
 
     <!-- SECTION:  Nouns -->
 
+    <pardef n="անձ__n_aa"> <!--i-type, irregular plural-->
+      <!-- The word has two correct plural forms: անձինք (anjink’) and less common անձեր (anjer). The first irregular one is a remnant of Old Armenian n-type declension: see it in անձն (anjn). -->
+      <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ը</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ն</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>ից</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ի</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ին</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ով</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+
+      <e>       <p><l>անցից</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>երից</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>անց</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>երի</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>անց</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>երին</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>անցով</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>երով</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ինք</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>եր</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ինք</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>երը</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>երն</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+    </pardef>
+
+
     <pardef n="ուսանող__n_aa">  <!-- No locative -->
       <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
       <e>       <p><l>ը</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
@@ -702,6 +728,9 @@
     <!-- SECTION: Nouns -->
 
     <e lm="ուսանող"><i>ուսանող</i><par n="ուսանող__n_aa"/></e>
+
+    <e lm="անձ"><i>անձ</i><par n="անձ__n_aa"/></e>
+
 
     <e lm="արև"><i>արև</i><par n="արև__n_nn"/></e>
     <e lm="անգամ"><i>անգամ</i><par n="արև__n_nn"/></e>
