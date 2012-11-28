@@ -276,6 +276,28 @@
       <e>       <p><l>երն</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
     </pardef>
 
+    <pardef n="աստ/ված__n_aa"> <!-- u-type/o-type, plural in -ner, animate, archaic and irregular-->
+      <!-- The genitive աստծու (astcu) is somewhat colloquial, while աստծո (astco) is more literary. -->
+      <e>       <p><l>ծուց</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ծո</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ծու</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուծո</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ծուն</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>ծով</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուծով</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ված</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>վածը</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>վածն</l><r>ված<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>վածներից</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>վածների</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>վածներին</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>վածներով</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>վածներ</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>վածները</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>վածներն</l><r>ված<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+
+    </pardef>
+
 
     <pardef n="ուսանող__n_aa">  <!-- No locative -->
       <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -730,7 +752,7 @@
     <e lm="ուսանող"><i>ուսանող</i><par n="ուսանող__n_aa"/></e>
 
     <e lm="անձ"><i>անձ</i><par n="անձ__n_aa"/></e>
-
+    <e lm="աստված"><i>աստ</i><par n="աստ/ված__n_aa"/></e>
 
     <e lm="արև"><i>արև</i><par n="արև__n_nn"/></e>
     <e lm="անգամ"><i>անգամ</i><par n="արև__n_nn"/></e>
