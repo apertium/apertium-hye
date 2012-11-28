@@ -251,6 +251,12 @@
 
     <!-- SECTION:  Nouns -->
 
+    <pardef n="poss">
+      <e>       <p><l></l><r></r></p></e>
+      <e>       <p><l>ս</l><r><s n="px1sg"/></r></p></e>
+      <e>       <p><l>դ</l><r><s n="px2sg"/></r></p></e>
+    </pardef>
+
     <pardef n="անձ__n_aa"> <!--i-type, irregular plural-->
       <!-- The word has two correct plural forms: անձինք (anjink’) and less common անձեր (anjer). The first irregular one is a remnant of Old Armenian n-type declension: see it in անձն (anjn). -->
       <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
@@ -353,192 +359,94 @@
       <e>       <p><l>ուստրերն</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
     </pardef>
 
-
-
-
     <pardef n="ուսանող__n_aa">  <!-- No locative -->
-      <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ը</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>ն</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ի</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ի</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ին</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ից</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ով</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ից</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ով</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
 
-      <e>       <p><l>ներ</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ներ</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ները</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
       <e>       <p><l>ներն</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ների</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ների</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ներին</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ներից</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ներով</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-
-      <e>       <p><l>ս</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իս</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իցս</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ովս</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>ներս</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներիս</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներիցս</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներովս</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>դ</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իցդ</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իդ</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ովդ</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-
-      <e>       <p><l>ներիցդ</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներիդ</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներովդ</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներդ</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ներից</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ներով</l><r><s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
     </pardef>
 
     <pardef n="արև__n_nn">
-      <e>       <p><l></l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ը</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e>       <p><l>ն</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ի</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ի</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ին</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ից</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ով</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ում</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ից</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ով</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ում</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
 
-      <e>       <p><l>ներ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ներ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ները</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
       <e>       <p><l>ներն</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ների</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ների</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ներին</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ներից</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ներով</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ներում</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-
-      <e>       <p><l>ս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իցս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ովս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ումս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>դ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իցդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ովդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ումդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
-
-      <e>       <p><l>ներս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներիս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներիցս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներովս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ներումս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>ներդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներիդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներիցդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներովդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ներումդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>ներից</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ներով</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ներում</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
     </pardef>
 
 
     <pardef n="իր__n_nn">
-      <e>       <p><l></l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l></l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ը</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>ն</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ի</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ի</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ին</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>ից</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ով</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ում</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ից</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ով</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ում</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
 
-      <e>       <p><l>եր</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>եր</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>երը</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>երն</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>երի</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>երի</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>երին</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
 
-      <e>       <p><l>երից</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>երով</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-      <e>       <p><l>երում</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-
-      <e>       <p><l>ս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իցս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ովս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ումս</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <!--<e>       <p><l>-</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>-->
-      <e>       <p><l>իդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իցդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ովդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ումդ</l><r><s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
-
-      <e>       <p><l>երս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>երիս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>երիցս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>երովս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>երումս</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>երդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>երիդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>երիցդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>երովդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>երումդ</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
+      <e>       <p><l>երից</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>երով</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>երում</l><r><s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
     </pardef>
 
     <pardef n="գին/ի__n_nn">
-
-      <e>       <p><l>ի</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ի</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ին</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
-      <e>       <p><l>ու</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ու</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ուն</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
-      <e>       <p><l>ուց</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ով</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
-      <e>       <p><l>ում</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p></e>
+      <e>       <p><l>ուց</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ով</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ում</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
 
-      <e>       <p><l>իներ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իներ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>իները</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>իներն</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
-      <e>       <p><l>իների</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իների</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>իներին</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
-      <e>       <p><l>իներից</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
-      <e>       <p><l>իներով</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
-      <e>       <p><l>իներում</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p></e>
-
-      <e>       <p><l>իս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ուս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ուցս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ովս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ումս</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>իներս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>ունս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իներիցս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իներովս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px1sg"/></r></p></e>
-      <e>       <p><l>իներումս</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px1sg"/></r></p></e>
-
-      <e>       <p><l>իդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ուդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ուցդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ովդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>ումդ</l><r>ի<s n="n"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
-
-      <e>       <p><l>իներդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="nom"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իներիդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="dat"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իներիցդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իներովդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/><s n="px2sg"/></r></p></e>
-      <e>       <p><l>իներումդ</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/><s n="px2sg"/></r></p></e>
-
-
+      <e>       <p><l>իներից</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>իներով</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>իներում</l><r>ի<s n="n"/><s n="nn"/><s n="pl"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
     </pardef>
 
     <!-- SECTION: Proper nouns -->
