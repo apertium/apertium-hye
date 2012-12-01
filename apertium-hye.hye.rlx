@@ -1,20 +1,38 @@
 DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" "<:>";
+SOFT-DELIMITERS = "<,>";
 
 SETS
 
+LIST BOS = (>>>) (sent);
+LIST EOS = (<<<) (sent);
+
 LIST N = n ; 
 LIST A = adj ; 
+LIST Pron = prn; 
 LIST Adv = adv ; 
-LIST V-COP = vbser ; 
+LIST V-Cop = vbser ; 
+LIST V-Aux = vaux ;
 
 LIST Inf = inf ; 
 
+LIST Nom = nom ;
+
+LIST Px2Sg = px2sg ; 
+
 SECTION
 
-SELECT N ; 
 
 SELECT A IF (-1 ("ավելի")) ;
 
-SELECT A IF (0C A OR Adv) (1 V-COP) ; 
+SELECT Adv IF (0 ("ավելի")) (1 A) ; 
+
+SELECT A IF (0C A OR Adv) (1 V-Cop) ; 
 
 SELECT Inf ; 
+
+REMOVE Px2Sg IF (0 Nom - Px2Sg);
+    ## Ինքը լավ մարդ չի:
+
+REMOVE V-Aux IF (-1 BOS) (0C V-Aux OR Pron) ; 
+    ## ես ավելի խելոք եմ, քան դու:
+
