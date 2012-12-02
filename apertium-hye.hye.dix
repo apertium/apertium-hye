@@ -3587,7 +3587,7 @@
       <e>       <p><l>ին</l><r><s n="np"/><s n="top"/><s n="nn"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
       <e>       <p><l>ից</l><r><s n="np"/><s n="top"/><s n="nn"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ով</l><r><s n="np"/><s n="top"/><s n="nn"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p><par n="poss"/></e>
-      <e>       <p><l>ւմ</l><r><s n="np"/><s n="top"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
+      <e>       <p><l>ում</l><r><s n="np"/><s n="top"/><s n="nn"/><s n="sg"/><s n="loc"/><s n="ind"/></r></p><par n="poss"/></e>
     </pardef>
 
  
@@ -8136,10 +8136,12 @@
     <e lm="Գրիգոր"><i>Գրիգոր</i><par n="Գրիգոր__np"/></e>
 
     <e lm="Երևան"><i>Երևան</i><par n="Երևան__np"/></e>
+    <e lm="Հայաստան"><i>Հայաստան</i><par n="Երևան__np"/></e>
 
 
     <!-- SECTION: Adjectives -->
 
+    <e lm="պետք"><i>պետք</i><par n="կարմիր__adj"/></e> <!-- noun "need" / "necessary" -->
     <e lm="կարմիր"><i>կարմիր</i><par n="կարմիր__adj"/></e>
     <e lm="բոլոր" c="all"><i>բոլոր</i><par n="կարմիր__adj"/></e>
     <e lm="ազնիվ"><i>ազնիվ</i><par n="վատ__adj"/></e>
@@ -8168,6 +8170,7 @@
     <e lm="խելոք"><i>խելոք</i><par n="վատ__adj"/></e>
     <e lm="խելոք"><p><l>ամենախելոք</l><r>խելոք</r></p><par n="ագույն__adj"/></e>
 
+    <e lm="նոր"><i>նոր</i><par n="կարմիր__adj"/></e>
     <e lm="ազգային"><i>ազգային</i><par n="կարմիր__adj"/></e>
     <e lm="միակ"><i>միակ</i><par n="կարմիր__adj"/></e>
     <e lm="ազնիվ"><i>ազնիվ</i><par n="կարմիր__adj"/></e>
@@ -8631,10 +8634,6 @@
     <e lm="կակազել"><i>կակազ</i><par n="ուզ/ել__vblex_tv"/></e>
     <e lm="կակազել"><par n="part-neg"/><i>կակազ</i><par n="ուզ/ել__vblex_tv_2"/></e>
     <e lm="կակազել"><p><l>կկակազ</l><r>կակազ</r></p><par n="ուզ/ել__vblex_tv_3"/></e>
-
-    <e lm="կապել"><i>կապ</i><par n="ուզ/ել__vblex_tv"/></e>
-    <e lm="կապել"><par n="part-neg"/><i>կապ</i><par n="ուզ/ել__vblex_tv_2"/></e>
-    <e lm="կապել"><p><l>կկապ</l><r>կապ</r></p><par n="ուզ/ել__vblex_tv_3"/></e>
 
     <e lm="կառչել"><i>կառչ</i><par n="ուզ/ել__vblex_tv"/></e>
     <e lm="կառչել"><par n="part-neg"/><i>կառչ</i><par n="ուզ/ել__vblex_tv_2"/></e>
@@ -9361,6 +9360,11 @@
     <e lm="թրմել"><i>թրմ</i><par n="սիր/ել__vblex_tv"/></e>
     <e lm="թրմել"><par n="part-neg"/><i>թրմ</i><par n="սիր/ել__vblex_tv_2"/></e>
     <e lm="թրմել"><p><l>կթրմ</l><r>թրմ</r></p><par n="սիր/ել__vblex_tv_3"/></e>
+
+    <e lm="կապել"><i>կապ</i><par n="սիր/ել__vblex_tv"/></e>
+    <e lm="կապել"><par n="part-neg"/><i>կապ</i><par n="սիր/ել__vblex_tv_2"/></e>
+    <e lm="կապել"><p><l>կկապ</l><r>կապ</r></p><par n="սիր/ել__vblex_tv_3"/></e>
+
 
     <e lm="թրջել"><i>թրջ</i><par n="սիր/ել__vblex_tv"/></e>
     <e lm="թրջել"><par n="part-neg"/><i>թրջ</i><par n="սիր/ել__vblex_tv_2"/></e>
