@@ -9,7 +9,10 @@ LIST EOS = (<<<) (sent);
 LIST N = n ; 
 LIST A = adj ; 
 LIST Pron = prn; 
+LIST Det = det ; 
+LIST Post = post ; 
 LIST Adv = adv ; 
+LIST V = vblex ; 
 LIST V-Cop = vbser ; 
 LIST V-Aux = vaux ;
 
@@ -31,7 +34,10 @@ SELECT Adv IF (0 ("ավելի")) (1 A) ;
 
 SELECT A IF (0C A OR Adv) (1 V-Cop) ; 
 
-SELECT Inf ; 
+SELECT A IF (0 ("<կարող>"i));
+    ## Կոլիբրին միակ թռչունն է, որը կարող է դեպի ետ թռչել:
+
+SELECT Inf (0C V); 
 
 REMOVE Px2Sg IF (0 Nom - Px2Sg);
     ## Ինքը լավ մարդ չի:
@@ -44,3 +50,13 @@ REMOVE N IF (0 ("<ինձ>"i));
 
 REMOVE Dem IF (0 Pers); 
     ## Նա անգլերեն շատ լավ է խոսում:
+
+SELECT Pron IF (0 Pron OR Det) (1 Post);
+    ## Այս մասին գրում է ամերիկյան հեղինակավոր TIME հանդեսը:
+
+#The following participles as non-finite verbal forms can only be used as constituents of
+#analytical forms and cannot be used without an auxiliary in a clause.
+#6.	 Present participle in -áõÙ -um
+#7.	 Perfect participle in -»É -el
+#8.	 Negative participle
+
