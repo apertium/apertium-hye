@@ -15,6 +15,9 @@ LIST V-Aux = vaux ;
 
 LIST Inf = inf ; 
 
+LIST Dem = dem ;
+LIST Pers = pers ;
+
 LIST Nom = nom ;
 
 LIST Px2Sg = px2sg ; 
@@ -38,3 +41,6 @@ REMOVE V-Aux IF (-1 BOS) (0C V-Aux OR Pron) ;
 
 REMOVE N IF (0 ("<ինձ>"i));
     ## Ինձ նոր մատիտ է պետք:
+
+REMOVE Dem IF (0 Pers); 
+    ## Նա անգլերեն շատ լավ է խոսում:
