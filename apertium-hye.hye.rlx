@@ -36,3 +36,5 @@ REMOVE Px2Sg IF (0 Nom - Px2Sg);
 REMOVE V-Aux IF (-1 BOS) (0C V-Aux OR Pron) ; 
     ## ես ավելի խելոք եմ, քան դու:
 
+REMOVE N IF (0 ("<ինձ>"i));
+    ## Ինձ նոր մատիտ է պետք:
