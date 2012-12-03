@@ -9214,6 +9214,7 @@
     <e lm="ամեն"><i>ամեն</i><par n="կարմիր__adj"/></e> <!-- all, everyone -->
     <e lm="մյուս"><i>մյուս</i><par n="կարմիր__adj"/></e> <!-- other -->
     <e lm="կարմիր"><i>կարմիր</i><par n="կարմիր__adj"/></e>
+    <e lm="նորմալ"><i>նորմալ</i><par n="կարմիր__adj"/></e> <!-- check -->
     <e lm="բոլոր" c="all"><i>բոլոր</i><par n="կարմիր__adj"/></e>
     <e lm="ազնիվ"><i>ազնիվ</i><par n="վատ__adj"/></e>
 
@@ -12383,6 +12384,11 @@
     <e lm="թռչել"><i>թռ</i><par n="թռ/չել__vblex_iv"/></e>
     <e lm="թռչել"><par n="part-neg"/><i>թռ</i><par n="թռ/չել__vblex_iv_2"/></e>
     <e lm="թռչել"><p><l>կթռչ</l><r>թռչ</r></p><par n="թռչ/ել__vblex_iv_3"/></e>
+
+    <!-- Missing causative -->
+    <e lm="խմել"><i>խմ</i><par n="ուզ/ել__vblex_tv"/></e>
+    <e lm="խմել"><par n="part-neg"/><i>խմ</i><par n="ուզ/ել__vblex_tv_2"/></e>
+    <e lm="խմել"><p><l>կխմ</l><r>խմ</r></p><par n="ուզ/ել__vblex_tv_3"/></e>
 
 
 <!-- !! CAUS !!
