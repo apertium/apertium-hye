@@ -509,6 +509,25 @@
       <e>       <p><l>ուստրերն</l><r>ուստր<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
     </pardef>
 
+    <pardef n="աղջ/իկ__n_aa"> <!-- Irregular -->
+      <e>       <p><l>իկ</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իկը</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>իկն</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>կա</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>կան</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>կանից</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="abl"/><s n="ind"/></r></p></e>
+      <e>       <p><l>կանով</l><r>իկ<s n="n"/><s n="aa"/><s n="sg"/><s n="ins"/><s n="ind"/></r></p></e>
+
+      <e>       <p><l>իկներ</l><r>իկ<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իկները</l><r>իկ<s n="n"/><s n="aa"/><s n="pl"/><s n="nom"/><s n="def"/></r></p></e>
+      <e>       <p><l>իկների</l><r>իկ<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իկներին</l><r>իկ<s n="n"/><s n="aa"/><s n="pl"/><s n="dat"/><s n="def"/></r></p></e>
+      <e>       <p><l>իկներով</l><r>իկ<s n="n"/><s n="aa"/><s n="pl"/><s n="ins"/><s n="ind"/></r></p></e>
+      <e>       <p><l>իկներից</l><r>իկ<s n="n"/><s n="aa"/><s n="pl"/><s n="abl"/><s n="ind"/></r></p></e>
+    </pardef>
+
+
+
     <pardef n="ուսանող__n_aa">  <!-- No locative -->
       <e>       <p><l></l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="ind"/></r></p><par n="poss"/></e>
       <e>       <p><l>ը</l><r><s n="n"/><s n="aa"/><s n="sg"/><s n="nom"/><s n="def"/></r></p></e>
@@ -4453,6 +4472,9 @@
     <e lm="պետք"><i>պետք</i><par n="իր__n_nn"/></e> <!-- noun "need" / "necessary" -->
 
     <e lm="ուսանող"><i>ուսանող</i><par n="ուսանող__n_aa"/></e>
+
+    <e lm="աղջիկ"><i>աղջ</i><par n="աղջ/իկ__n_aa"/></e>
+
 
     <e lm="անձ"><i>անձ</i><par n="անձ__n_aa"/></e>
     <e lm="աստված"><i>աստ</i><par n="աստ/ված__n_aa"/></e>
