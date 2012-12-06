@@ -37,6 +37,9 @@ SELECT A IF (0C A OR Adv) (1 V-Cop) ;
 SELECT A IF (0 ("<կարող>"i));
     ## Կոլիբրին միակ թռչունն է, որը կարող է դեպի ետ թռչել:
 
+SELECT A IF (0C A OR Adv) (1C N);
+    ## մեր կուրսում սիրուն աղջիկներ չկան:
+
 SELECT Inf (0C V); 
 
 REMOVE Px2Sg IF (0 Nom - Px2Sg);
