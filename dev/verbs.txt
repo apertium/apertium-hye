@@ -1,0 +1,116 @@
+
+Simple verbs are made up of a root stem. The infinitive endings in -»É-el, -3É -al are attached
+to these roots to express the basic and neutral meanings of the verb. Thus, according to the
+conjugation, there are
+* simple a-verbs as in Ï3ñ13É kard-al “read”, Ñ3í3ï3É havat-al “believe”, ÙÝ3É mn-al “stay, remain” etc.
+* simple e- verbs as in ·ñ»É gr-el “write”, Éë»É ls-el “hear”, ËÙ»É xm-el “drink” etc.
+
+
+stem + el 
+
+stem + al 
+
+ -v- = passive, reflexive, reciprocal
+ -c'n- = causative
+
+ - taking causative/passive depends on the stem.
+
+ - strictly transitive verbs cannot be causativised with -c'n- (needs tal + inf)
+
+ - ambitransitive take both.
+
+
+There are the following prefix groups:
+
+    No prefix: {imperfective, perfective, simultaneous, future I, future II} participle, imperative
+    չ only: aorist, infinitive, resultative participle, subject participle, conneg
+    չ and կ: subjunctive future, subjunctive future perfect
+
+All finite and non-finite forms of Armenian verbs are generated either from the pres-
+ent or the perfect aorist stem. In traditional Armenian grammars the “infinitive” stem is
+often used instead of the present stem.
+
+===Two stems! 
+
+* aorist / present
+
+* Present:
+ 
+  - inf:   (č-)  -el    |  -al
+  - neg:   (č-)  -i     |  -a 
+  - psub:  (č-)  -oł    |                             // nomen agentis
+  - prsl:  (č-)  -ac    | 
+  - pfup:        -el-u  |  -al-u                      // inf+
+  - proc:        -el-is |  -al-is                     // inf+ 
+  - pprs:        -um    |  -um
+
+  - fts:         -em    | -am
+  - cni:         k- -em | k- -am
+  - imp:         -ir    | -a
+
+* Aorist: 
+ 
+  - prsl:   (č-)        | - 
+  - pp:                 | 
+  - psub:   (č-)        | -oł
+  - aor:    (č-) -i     | -i
+
+* Causative: 
+
+* Passive:  regular passive with -v-
+
+
+Sometimes the imperative is irregular.
+Sometimes the passive is irregular.
+Sometimes the aorist stem is irregular.
+Sometimes there are suppletive verbs. ուտել
+
+Sometimes past participle is irregular.
+"This is one of three verbs whose imperfective converb has the form of the simultaneous converb: տալիս (talis). The other two are գալ (gal) and լալ (lal)."
+
+
+   <e lm="utel" c="pres"><p><l>ut</l><r>utel</r></p><par n="ut/el__X"/>
+   <e lm="utel" c="pres"><p><l>čʿut</l><r>utel</r></p><par n="ut/el__X_neg"/>
+   <e lm="utel" c="aor"><p><l>ker</l><r>utel</r></p><par n="ut/el__X"/>
+   <e lm="utel" c="aor"><p><l>ker</l><r>utel</r></p><par n="ut/el__imp"/>
+   <e lm="utel" c="aor"><p><l>čʿker</l><r>utel</r></p><par n="ut/el__X_neg"/>
+   <e lm="utel" c="pres"><p><l>kut</l><r>utel</r></p><par n="ut/el__cni"/>
+   <e lm="utel" c="caus"><p><l>kercʿn</l><r>utel</r></p><par n="kercʿn/el__caus"/> 
+
+   <e lm="spasel" c="pres"><p><l>spas</l><r>spasel</r></p><par n="spas/el__X"/>
+   <e lm="spasel" c="pres"><p><l>čʿspas</l><r>spasel</r></p><par n="spas/el__X"/>
+   <e lm="spasel" c="aor"><p><l>spas</l><r>spasel</r></p><par n="spas/el__X"/>
+   <e lm="spasel" c="aor"><p><l>čʿspas</l><r>spasel</r></p><par n="spas/el__X"/>
+   <e lm="spasel" c="pres"><p><l>kspas</l><r>spasel</r></p><par n="spas/el__X"/>
+   <e lm="spasel" c="caus"><p><l>spasecʿn</l><r>spasel</r></p><par n="spas/el__X"/>
+   <e lm="spasel" c="caus"><p><l>spasacʿn</l><r>spasel</r></p><par n="spas/el__X"/>
+
+   <!-- Transitive verb, with passive -->
+   <e lm="tan" c="pres">                 <p><l>tan</l><r>tanel</r></p><par n="-el__pres"/></e>
+   <e lm="tan" c="pres"><par n="čʿ_neg"/><p><l>tan</l><r>tanel</r></p><par n="-el__pres_neg"/></e>
+   <e lm="tan" c="pres">                 <p><l>ktan</l><r>tanel</r></p><par n="-el__subjunc"/></e>
+   <e lm="tan" c="aor ">                 <p><l>tar</l><r>tanel</r></p><par n="-el__aor"/></e>
+   <e lm="tan" c="aor "><par n="čʿ_neg"/><p><l>tar</l><r>tanel</r></p><par n="-el__aor_neg"/></e>
+   <e lm="tan" c="pass">                 <p><l>tarv</l><r>tanel</r></p><par n="-el__pass"/></e>
+   <e lm="tan" c="pass"><par n="čʿ_neg"/><p><l>tarv</l><r>tanel</r></p><par n="-el__pass_neg"/></e>
+   <e lm="tan" c="pass">                 <p><l>ktarv</l><r>tanel</r></p><par n="-el__pass_subjunc"/></e>
+
+{{hy-conj-ել|տան|tan|տար|tar|imp1=[[տար|տա՛ր]]|imp1tr=tar!|pass={{Armn|[[տարվել]]}}|passtr=(tarvel)|note=note the irregular aorist stem and the imperative}}
+
+
+   <e lm="tan" c="pres">                 <p><l>t</l><r>tal</r></p><par n="-al__pres"/></e>
+   <e lm="tan" c="pres"><par n="čʿ_neg"/><p><l>t</l><r>tal</r></p><par n="-al__pres_neg"/></e>
+   <e lm="tan" c="pres">                 <p><l>kt</l><r>tal</r></p><par n="-al__subjunc"/></e>
+   <e lm="tan" c="aor ">                 <p><l>tv</l><r>tal</r></p><par n="-al__aor"/></e>
+   <e lm="tan" c="aor "><par n="čʿ_neg"/><p><l>tv</l><r>tal</r></p><par n="-al__aor_neg"/></e>
+   <e lm="tan" c="pass">                 <p><l>trv</l><r>tal</r></p><par n="-al__pass"/></e>
+   <e lm="tan" c="pass"><par n="čʿ_neg"/><p><l>trv</l><r>tal</r></p><par n="-al__pass_neg"/></e>
+   <e lm="tan" c="pass">                 <p><l>ktrv</l><r>tal</r></p><par n="-al__pass_subjunc"/></e>
+   <e lm="tan" c="imp">                  <p><l>tur</l><r>tal</r></p><par n="-al__imp"/></e>
+
+{{hy-conj-ալ-իս|տ|t|տվ|tv|pass=[[տրվել]]|passtr=(trvel)|imp1=[[տուր|տու՛ր]], [[տու|տո՛ւ]]*|imp1tr=tur!, tu!*|}}
+
+
+
+
+{{hy-conj-ալ-իս|գ|g|եկ|ek|aor=եկ|aortr=ek|imp1=[[արի|արի՛]], [[եկ|ե՛կ]]*|imp1tr=ari!, ek!|}}

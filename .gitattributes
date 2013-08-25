@@ -1,5 +1,16 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/NEWS -text
+/README -text
+/apertium-hye-0.1.pc.in -text
 /apertium-hye.hye.dix -text
 /apertium-hye.hye.rlx -text
+/autogen.sh -text
+dev/adj-sint.speling -text
 dev/noun_inflection_getter.py -text
 dev/translations/noun_getter.py -text
+dev/verbs.txt -text
+dev/verbs2.dix -text
+/modes.xml -text
