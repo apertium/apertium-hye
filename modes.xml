@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="hye-morph">
+  <mode name="hye-morph" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="hye.automorf.bin"/>
@@ -9,7 +9,7 @@
     </pipeline>
   </mode>
 
-  <mode name="hye-gener">
+  <mode name="hye-gener" install="yes">
     <pipeline>
       <program name="lt-proc -g">
         <file name="hye.autogen.bin"/>
@@ -17,7 +17,7 @@
     </pipeline>
   </mode>
 
-  <mode name="hye-disam">
+  <mode name="hye-disam" install="yes">
     <pipeline>
       <program name="lt-proc -w">
         <file name="hye.automorf.bin"/>
