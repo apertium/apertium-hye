@@ -5,9 +5,11 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
+/apertium-hye.hye.acx -text
 /apertium-hye.hye.dix -text
 /apertium-hye.hye.rlx -text
 /apertium-hye.pc.in -text
+/apertium-hye.post-hye.dix -text
 /autogen.sh -text
 /configure.ac -text
 dev/adj-sint.speling -text
@@ -15,4 +17,5 @@ dev/noun_inflection_getter.py -text
 dev/translations/noun_getter.py -text
 dev/verbs.txt -text
 dev/verbs2.dix -text
+/hye.prob -text
 /modes.xml -text
