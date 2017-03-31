@@ -116,6 +116,8 @@
 
     <pardef n="coma">    
       <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+      <e r="LR"><p><l>`</l><r>՝<s n="cm"/></r></p></e>
+      <e><p><l>՝</l><r>՝<s n="cm"/></r></p></e>
     </pardef>
 
     <pardef n="quotes">    
