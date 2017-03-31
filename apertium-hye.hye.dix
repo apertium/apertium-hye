@@ -98,6 +98,10 @@
      <sdef n="cm"     c="Comma"/>
      <sdef n="apos"   c="Apostrophe"/>
      <sdef n="guio"   c="Hyphen"/>
+     <sdef n="lpar"   c=""/>
+     <sdef n="rpar"   c=""/>
+     <sdef n="lquot"   c=""/>
+     <sdef n="rquot"   c=""/>
      <sdef n="sent"   c="End of sentence marker"/>
 
    </sdefs>
@@ -107,11 +111,20 @@
     <!-- SECTION: Punctuation -->
 
     <pardef n="guionet">    
-      <e><re>[֊\-]</re><p><l></l><r><s n="guio"/></r></p></e>
+      <e><re>[֊\-−]</re><p><l></l><r><s n="guio"/></r></p></e>
     </pardef>
 
     <pardef n="coma">    
       <e><p><l>,</l><r>,<s n="cm"/></r></p></e>
+    </pardef>
+
+    <pardef n="quotes">    
+      <e><p><l>«</l><r>«<s n="lquot"/></r></p></e>
+      <e><p><l>»</l><r>»<s n="rquot"/></r></p></e>
+    </pardef>
+    <pardef n="parenth">    
+      <e><p><l>(</l><r>(<s n="lpar"/></r></p></e>
+      <e><p><l>)</l><r>)<s n="rpar"/></r></p></e>
     </pardef>
 
     <pardef n="aposchar">    
@@ -128,7 +141,7 @@
     </pardef>
 
     <pardef n="separa">    
-      <e><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+      <e><re>[.\?;։:!]+</re><p><l></l><r><s n="sent"/></r></p></e>
     </pardef>
 
     <!-- SECTION: Suffixes -->
@@ -12714,6 +12727,7 @@
     <!-- SECTION: Punctuation -->
 
 
+
   </section>
   <section id="unchecked" type="standard">
 
@@ -13151,6 +13165,8 @@
   <section id="final" type="inconditional">
     <e><par n="numeros"/></e>
     <e><par n="separa"/></e>
+    <e><par n="parenth"/></e>
+    <e><par n="quotes"/></e>
     <e><par n="coma"/></e>
     <e><par n="cometa"/></e>
     <e><par n="guionet"/></e>
