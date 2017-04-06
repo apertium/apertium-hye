@@ -1,0 +1,84 @@
+_	_	_	tv	_	_	_	_	#Transitive
+_	_	_	iv	_	_	_	_	#Intransitive
+_	_	_	aa	_	_	Animacy=Anim	_	#Animate
+_	_	_	nn	_	_	Animacy=Inan	_	#Inanimate
+_	_	_	m	_	_	Gender=Msc	_	#Masculine
+_	_	_	f	_	_	Gender=Fem	_	#Feminine
+_	_	_	nom	_	_	Case=Nom	_	#Nominative
+_	_	_	acc	_	_	Case=Acc	_	#Accusative
+_	_	_	dat	_	_	Case=Dat	_	#Dative
+_	_	_	gen	_	_	Case=Gen	_	#Genitive
+_	_	_	loc	_	_	Case=Loc	_	#Locative
+_	_	_	abl	_	_	Case=Abl	_	#Ablative
+_	_	_	ins	_	_	Case=Ins	_	#Instrumental
+_	_	_	subst	_	_	_	_	#Substantivised
+_	_	_	px1sg	_	_	Person[psor]=1|Number[psor]=Sing	_	#Possessive first person singular
+_	_	_	px2sg	_	_	Person[psor]=2|Number[psor]=Sing	_	#Possessive second person singular
+_	_	_	sp	_	_	Number=Sing,Plur	_	#Singular / Plural
+_	_	_	sg	_	_	Number=Sing	_	#Singular
+_	_	_	pl	_	_	Number=Plur	_	#Plural
+_	_	_	ant	_	_	_	_	#Anthroponym
+_	_	_	top	_	_	_	_	#Toponym
+_	_	_	al	_	_	_	_	#Altres
+_	_	_	cog	_	_	_	_	#Cognomen
+_	_	_	inf	_	_	VerbForm=Inf	_	#Infinitive
+_	_	_	pass	_	_	Voice=Pass	_	#Passive
+_	_	_	caus	_	_	Voice=Caus	_	#Causative
+_	_	_	pprs	_	_	VerbForm=Part|Tense=Pres	_	#Present participle
+_	_	_	proc	_	_	VerbForm=Part	_	#Process participle
+_	_	_	pp	_	_	VerbForm=Part|Aspect=Perf	_	#Perfective participle
+_	_	_	prsl	_	_	VerbForm=Part	_	#Resultative participle
+_	_	_	psub	_	_	VerbForm=Part	_	#Subject participle
+_	_	_	pneg	_	_	VerbForm=Part|Polarity=Neg	_	#Negative participle
+_	_	_	pfup	_	_	VerbForm=Part|Tense=Fut	_	#Future participle I
+_	_	_	pfus	_	_	VerbForm=Part|Tense=Fut	_	#Future participle II
+_	_	_	pres	_	_	Tense=Pres	_	#Present
+_	_	_	pii	_	_	Aspect=Imp	_	#Imperfect
+_	_	_	aor	_	_	Tense=Aor	_	#Aorist
+_	_	_	imp	_	_	Mood=Imp	_	#Imperative
+_	_	_	fts	_	_	Mood=Sub|Tense=Fut	_	#Future subjunctive
+_	_	_	ftk	_	_	Tense=Fut|Aspect=Perf	_	#Future perfect
+_	_	_	cni	_	_	Tense=Fut|Mood=Cond	_	#Conditional future
+_	_	_	cnk	_	_	Tense=Fut|Mood=Cond|Aspect=Perf	_	#Conditional future perfect
+_	_	_	mf	_	_	_	_	#Masculine / Feminine
+_	_	_	nt	_	_	Gender=Neu	_	#Neuter
+_	_	_	def	_	_	Definite=Def	_	#Definite
+_	_	_	ind	_	_	Definite=Ind	_	#Indefinite
+_	_	_	dem	_	_	PronType=Dem	_	#Demonstrative
+_	_	_	itg	_	_	PronType=Itg	_	#Interrogative
+_	_	_	ord	_	_	NumType=Ord	_	#Ordinal
+_	_	_	pers	_	_	PronType=Prs	_	#Personal
+_	_	_	emph	_	_	_	_	#Emphatic
+_	_	_	p1	_	_	Person=1	_	#First person
+_	_	_	p2	_	_	Person=2	_	#Second person
+_	_	_	p3	_	_	Person=3	_	#Third person
+_	_	_	sint	_	_	_	_	#Synthetic
+_	_	_	pst	_	_	Degree=Pos	_	#Positive
+_	_	_	comp	_	_	Degree=Comp	_	#Comparative
+_	_	_	sup	_	_	Degree=Sup	_	#Superlative
+_	_	cm	_	_	PUNCT	_	_	#Comma
+_	_	apos	_	_	PUNCT	_	_	#Apostrophe
+_	_	guio	_	_	PUNCT	_	_	#Hyphen
+_	_	lpar	_	_	PUNCT	_	_	#
+_	_	rpar	_	_	PUNCT	_	_	#
+_	_	lquot	_	_	PUNCT	_	_	#
+_	_	rquot	_	_	PUNCT	_	_	#
+_	_	sent	_	_	PUNCT	_	_	#End of sentence marker
+_	_	n	_	_	NOUN	_	_	#Noun
+_	_	adj	_	_	ADJ	_	_	#Adjective
+_	_	cnjcoo	_	_	CCONJ	_	_	#Co-ordinating conjunction
+_	_	cnjsub	_	_	SCONJ	_	_	#Subordinating conjunction
+_	_	cnjadv	_	_	SCONJ	_	_	#Adverbial conjunction
+_	_	post	_	_	ADP	_	_	#Postposition
+_	_	abbr	_	_	_	_	#Abbreviation
+_	_	adv	_	_	ADV	_	_	#Adverb
+_	_	np	_	_	PROPN	_	_	#Proper noun
+_	_	pr	_	_	ADP	_	_	#Preposition
+_	_	ij	_	_	INTERJ	_	_	#Interjection
+_	_	num	_	_	NUM	_	_	#Numeral
+_	_	prn	_	_	PRON	_	_	#Pronoun
+_	_	rel	_	_	PRON	PronType=Rel	_	#Relative
+_	_	det	_	_	DET	_	_	#Determiner
+_	_	vblex	_	_	VERB	_	_	#Verb
+_	_	vbser	_	_	AUX	_	_	#Verb 'to be'
+_	_	vaux	_	_	AUX	_	_	#Auxiliary verb
