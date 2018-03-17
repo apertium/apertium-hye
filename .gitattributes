@@ -20,3 +20,8 @@ dev/verbs2.dix -text
 /hye.prob -text
 /modes.xml -text
 texts/hye-feats.tsv -text
+*.dix linguist-language=XML linguist-detectable=true
+*.lrx linguist-language=XML linguist-detectable=true
+*.lsx linguist-language=XML linguist-detectable=true
+*.tsx linguist-language=XML linguist-detectable=true
+*.t[[:digit:]]x linguist-language=XML linguist-detectable=true
