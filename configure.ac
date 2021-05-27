@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Armenian], [0.1.0], [francis.tyers@gmail.com], [apertium-hye], [http://wiki.apertium.org/wiki/Apertium-hye])
+AC_INIT([Apertium Armenian], [0.1.0], [francis.tyers@gmail.com], [apertium-hye], [https://wiki.apertium.org/wiki/Apertium-hye])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
