@@ -1,0 +1,10 @@
+[1ZbEaFAfTE5S#0] ^Ես/եմ<vaux><pres><p2><sg>/ես<prn><pers><p1><mf><sg><nom>$ ^շատ/շատ<adv>/շատ<adj><sint>$ ^սիրում/սիրել<vblex><tv><pprs>$ ^եմ/եմ<vaux><pres><p1><sg>$ ^լավ/լավ<adj><sint>$ ^գինի/գինի<n><nn><sg><nom><ind>$^:/:<sent>$
+[/1ZbEaFAfTE5S]
+[HC_IeqtcMSMl#0] ^Գիտե՞իր/*Գիտե՞իր$ ^որ/որ<cnjsub>/որ<rel><nn><sg><nom><ind>$ ^Արտյոմը/*Արտյոմը$ ^հասկանում/*հասկանում$ ^է/եմ<vaux><pres><p3><sg>$ ^հայերեն/հայերեն<n><nn><sg><nom><ind>$^:/:<sent>$
+[/HC_IeqtcMSMl]
+[_nK1zYePVONU#0] ^Կոլիբրին/կոլիբրի<n><aa><sg><nom><def>$ ^միակ/միակ<adj>$ ^թռչունն/թռչուն<n><aa><sg><nom><def>$ ^է/եմ<vaux><pres><p3><sg>$^,/,<cm>$ ^որը/որ<rel><nn><sg><nom><def>$ ^կարող/կարել<vblex><tv><psub>/կարող<adj><sint>$ ^է/եմ<vaux><pres><p3><sg>$ ^դեպի/դեպի<pr>$ ^ետ/ետ<adv>$ ^թռչել/թռչել<vblex><iv><pp>/թռչել<vblex><iv><inf><nom><ind>$^:/:<sent>$
+[/_nK1zYePVONU]
+[iF9_GcqFqj4h#0] ^ես/եմ<vaux><pres><p2><sg>/ես<prn><pers><p1><mf><sg><nom>$ ^պեչենի/պեչենի<n><nn><sg><nom><ind>$ ^սիրում/սիրել<vblex><tv><pprs>$ ^եմ/եմ<vaux><pres><p1><sg>$^:/:<sent>$
+[/iF9_GcqFqj4h]
+[vfD8FBKT0XzR#0] ^ես/եմ<vaux><pres><p2><sg>/ես<prn><pers><p1><mf><sg><nom>$ ^քեզ/դու<prn><pers><p2><mf><sg><dat>/դու<prn><pers><p2><mf><sg><acc>$ ^սիրում/սիրել<vblex><tv><pprs>$ ^եմ/եմ<vaux><pres><p1><sg>$^:/:<sent>$
+[/vfD8FBKT0XzR]
